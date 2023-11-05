@@ -18,7 +18,6 @@ module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'ALEX 𝐁𝐨𝐭' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME ===  undefined? 'ALEX' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,VAJIRA;;;HookedSimple
-
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'alex' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'VAJIRA-Md' : process.env.PACK_INFO.split(";")[1],
